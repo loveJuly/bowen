@@ -32,7 +32,7 @@
     
     CAShapeLayer * layer = [[CAShapeLayer alloc] init];
     layer.path = path.CGPath;
-    layer.strokeColor = [UIColor colorWithRed:0 green:0 blue:1 alpha:0.3].CGColor;
+    layer.strokeColor = [UIColor blueColor].CGColor;
     layer.fillColor = [UIColor clearColor].CGColor;
     
     [self.layer addSublayer:layer];
